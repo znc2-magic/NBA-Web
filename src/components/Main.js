@@ -1,5 +1,6 @@
 import React from 'react';
 import {ShotChart} from './ShotChart';
+import {Profile} from './Profile';
 import nba from 'nba';
 
 export class Main extends React.Component {
@@ -9,7 +10,8 @@ export class Main extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
+        <Profile/>
         <ShotChart playerId={this.state.playerId}/>
       </div>
     );
