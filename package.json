@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.2.1",
+    "antd": "^3.2.3",
+    "d3": "^4.13.0",
+    "d3-hexbin": "^0.2.2",
     "d3-shotchart": "0.0.2",
+    "lodash": "^4.17.5",
     "nba": "^4.2.0",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
