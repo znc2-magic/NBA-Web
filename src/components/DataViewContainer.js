@@ -35,7 +35,7 @@ export class DataViewContainer extends React.Component {
         />
         <div className="filters">
           {this.state.chartType === "hexbin" ?
-            <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 1000)}/> : null
+            <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 500)}/> : null
           }
           <br/>
           <Row>
